@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sitem</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: rgb(59, 156, 153);
+            color: rgb(25, 21, 21);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: rgb(19, 19, 124);
+            color: white;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: rgb(255, 140, 0);
+            margin: 0;
+            font-size: 2.5em;
+        }
+        img {
+            border: 3px solid rgb(12, 12, 168);
+            border-radius: 10px;
+            margin: 20px auto;
+            transition: transform 0.3s;
+            display: block;
+            max-width: 90%;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        nav {
+            margin: 40px 0;
+        }
+        a {
+            margin: 10px;
+            padding: 12px 25px;
+            background-color: rgb(42, 68, 72);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: inline-block;
+            font-size: 1.1em;
+        }
+        a:hover {
+            background-color: rgb(8, 93, 204);
+        }
+        footer {
+            background-color: darkblue;
+            color: rgb(255, 255, 255);
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .content {
+            padding: 30px;
+        }
+        p {
+            font-size: 1.3em;
+            color: white;
+            padding: 15px;
+            background-color: rgba(19, 19, 124, 0.8);
+            border-radius: 10px;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Web Siteme Hoşgeldiniz!</h1>
+    </header>
+
+    <nav>
+        <a href="Genel/Bana Ulaşin/banaulasin.html" style="margin-top: 20px;">Bana Ulaşın</a>
+    </nav>
+
+    <main class="content">
+        <p>Aşağıdaki fotoğrafa tıklayarak hakkımdaki bilgilere ulaşabilirsiniz.</p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <a href="Genel/Hakkimda/hakkimda.html">
+                <img src="Varliklar/1.png" alt="Resmim" width="300px">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Yasin Oktay Cömert - Tüm Hakları Saklıdır.
+    </footer>
+</body>
+</html>
